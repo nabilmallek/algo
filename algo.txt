@@ -1,0 +1,63 @@
+) algorithm of the enter procedure
+ 
+
+0) def proc enter (ch: character string)
+1) repeat
+     read (ch)
+up to Fn verich (ch)
+2) end grab
+
+
+
+2 *) algorithm of the verif function
+
+0) def fn verif (ch: character string): boolean
+
+1) for i from 1 to long (ch) do
+   if ch [i] donations [a..z] or ch [i] donations [A..Z] or ch [i] = "" or ch [i] = "." then
+
+  test <- true
+ if not tesy <- mad
+end if
+end for
+2) check <- test
+3) late check
+
+3 *) algorithm of the lengtheur_phrase procedure
+
+0) def proc length_phrase (ch: character string)
+
+1) L <- long (ch)
+write ("the sentence length is:", L)
+
+2)
+
+    nbWords = 1
+
+    p = 0
+
+    tantque p <len (ch): to do
+
+        while ch [p] == "":
+
+            nbWords = 0
+
+            if ch [p]! = "":
+
+                nbWords = 1
+
+        p = p + 1
+
+    i = p
+
+   as long as i <len (ch):
+
+        if ch [i] == "":
+
+            nbWords = nbWords + 1
+
+        i = i + 1
+
+    writeln ("the name of the word in this pharse is", nbwords)
+
+3) end length_phrase
